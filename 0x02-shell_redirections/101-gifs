@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" | rev | cut -f 1 --delimiter=. --complement | cut -f 1 --delimiter=/ | rev | sort -f
